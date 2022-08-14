@@ -134,6 +134,9 @@ main {
 }
 
 .titleBanner h2 {
+  background: linear-gradient(#3fb2ac, #faffd1);
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 32px;
 }
 
@@ -396,6 +399,9 @@ form .btn input:hover {
     height: 650px;
   }
   .titleBanner h2 {
+    background: linear-gradient(#3fb2ac, #faffd1);
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
     margin-top: 100px;
     padding: 5px;
@@ -451,6 +457,9 @@ form .btn input:hover {
     height: 650px;
   }
   .titleBanner h2 {
+    background: linear-gradient(#3fb2ac, #faffd1);
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
     margin-top: 60px;
     padding: 5px;
@@ -488,8 +497,8 @@ form .btn input:hover {
     padding: 20px;
     margin: 30px auto;
   }
-  form input, .cajaMensaje textarea{
+  form input,
+  .cajaMensaje textarea {
     padding: 5px;
   }
-
 }
