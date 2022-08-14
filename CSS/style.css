@@ -154,7 +154,7 @@ main {
 .titleBanner .raky p {
   animation-name: texto;
   animation-duration: 2.5s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 3;
 }
 
 /****ACERCA DE****/
@@ -400,6 +400,9 @@ form .btn input:hover {
     margin-top: 100px;
     padding: 5px;
   }
+  .titleBanner .raky p {
+    animation-iteration-count: 3;
+  }
   /*acerca de*/
   .grupo-intro {
     width: 60%;
@@ -454,6 +457,9 @@ form .btn input:hover {
     text-align: center;
     margin-top: 60px;
     padding: 5px;
+  }
+  .titleBanner .raky p {
+    animation-iteration-count: 3;
   }
   /*acerca de*/
   .grupo-intro {
