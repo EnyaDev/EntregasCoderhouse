@@ -134,6 +134,9 @@ main {
 }
 
 .titleBanner h2 {
+  background: linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 32px;
 }
 
@@ -154,7 +157,7 @@ main {
 .titleBanner .raky p {
   animation-name: texto;
   animation-duration: 2.5s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 1;
 }
 
 /****ACERCA DE****/
@@ -396,12 +399,12 @@ form .btn input:hover {
     height: 650px;
   }
   .titleBanner h2 {
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
     margin-top: 100px;
     padding: 5px;
-  }
-  .titleBanner .raky p {
-    animation-iteration-count: 3;
   }
   /*acerca de*/
   .grupo-intro {
@@ -454,12 +457,12 @@ form .btn input:hover {
     height: 650px;
   }
   .titleBanner h2 {
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
     margin-top: 60px;
     padding: 5px;
-  }
-  .titleBanner .raky p {
-    animation-iteration-count: 3;
   }
   /*acerca de*/
   .grupo-intro {
@@ -494,8 +497,8 @@ form .btn input:hover {
     padding: 20px;
     margin: 30px auto;
   }
-  form input, .cajaMensaje textarea{
+  form input,
+  .cajaMensaje textarea {
     padding: 5px;
   }
-
 }
